@@ -13,6 +13,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { CalendarioComponent } from './Componentes/calendario/calendario.component';
+import { FormaPagoComponent } from './Componentes/forma-pago/forma-pago.component';
+import { LoginComponent } from './Componentes/login/login.component';
+import { MateriaComponent } from './Componentes/materia/materia.component';
+import { PersonaComponent } from './Componentes/persona/persona.component';
+import { TipoUsuarioComponent } from './Componentes/tipo-usuario/tipo-usuario.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +26,13 @@ import { MatListModule } from '@angular/material/list';
     EstudiantesComponent,
     ProfesoresComponent,
     TutoriaComponent,
-    MenuComponent
+    MenuComponent,
+    CalendarioComponent,
+    FormaPagoComponent,
+    LoginComponent,
+    MateriaComponent,
+    PersonaComponent,
+    TipoUsuarioComponent
   ],
   imports: [
     BrowserModule,
