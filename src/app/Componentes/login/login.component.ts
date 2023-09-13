@@ -22,6 +22,6 @@ export class LoginComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrar
+    this.mostrar()
   }
 }

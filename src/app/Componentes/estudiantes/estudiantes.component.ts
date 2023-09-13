@@ -20,6 +20,6 @@ export class EstudiantesComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrarAlumnos
+    this.mostrarAlumnos()
   }
 }

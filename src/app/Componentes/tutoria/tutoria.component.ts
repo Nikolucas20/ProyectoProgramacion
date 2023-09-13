@@ -22,6 +22,6 @@ export class TutoriaComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrarTutoria
+    this.mostrarTutoria()
   }
 }

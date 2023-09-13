@@ -22,6 +22,6 @@ export class FormaPagoComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrar
+    this.mostrar()
   }
 }

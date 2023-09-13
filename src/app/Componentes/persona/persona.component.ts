@@ -22,6 +22,6 @@ export class PersonaComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrar
+    this.mostrar()
   }
 }

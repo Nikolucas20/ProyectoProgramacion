@@ -22,6 +22,6 @@ export class ProfesoresComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrarProfesores
+    this.mostrarProfesores()
   }
 }

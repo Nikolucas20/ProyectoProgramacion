@@ -22,6 +22,6 @@ export class CalendarioComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrar
+    this.mostrar()
   }
 }

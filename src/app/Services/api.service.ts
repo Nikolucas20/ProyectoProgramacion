@@ -5,11 +5,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  Url:"https://localhost:7065/api/"
+  Url="https://localhost:7065/api/"
   constructor(public api: HttpClient) { }
   public async Get (controller:string){
+    var respo:any
     await this.api.get(this.Url+controller).toPromise().then((res=>{
-      console.log(res);
+      respo = res
+      console.log(respo);
     }))
   }
 }

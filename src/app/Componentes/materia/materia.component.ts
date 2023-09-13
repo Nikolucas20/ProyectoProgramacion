@@ -22,6 +22,6 @@ export class MateriaComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrar
+    this.mostrar()
   }
 }

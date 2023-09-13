@@ -22,6 +22,6 @@ export class TipoUsuarioComponent implements OnInit{
 
   
   ngOnInit(): void {
-    this.mostrar
+    this.mostrar()
   }
 }
